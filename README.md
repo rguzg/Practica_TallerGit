@@ -20,7 +20,7 @@ En caso de tener alguna duda puedes consultar el archivo [Git_Markdown_Cheatshee
 2. Copia dentro de la carpeta creada en el paso 3 el archivo _README.md_ que estuvimos usando en el taller y síguelo modificando. Agrega más hobbies, más imágenes, links a algún video que te guste, describe lo que te gustaría aprender, lo que estas aprendiendo actualmente, no lo sé, ¡el cielo es el limite!. Las modificaciones que hagas en la rama al README deben de estar contenidas en al menos **3 commits diferentes**.
 
 Al terminar esta parte de la práctica, la creada en el paso 3 se deberá de ver así: <br>
-![](Resources/FileSystem1.png)
+![](Resources/FileSystem2.png)
 
 ## Cosas que se realizarán en la rama `gitignore`
 1. Descarga de [aquí](drive.google.com) los archivos que utilizarás para esta parte de la práctica. Extrae los archivos y ponlos en la raíz del repositorio.
