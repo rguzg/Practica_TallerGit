@@ -23,11 +23,14 @@ En caso de tener alguna duda puedes consultar el archivo [Git_Markdown_Cheatshee
 ![](Resources/FileSystem2.png)
 
 ## Cosas que se realizarán en la rama `gitignore`
-1. Descarga de [aquí](drive.google.com) los archivos que utilizarás para esta parte de la práctica. Extrae los archivos y ponlos en la raíz del repositorio.
-2. Crea un archivo gitignore que ignore los siguientes archivos:
+1. Descarga de [aquí](drive.google.com) los archivos que utilizarás para esta parte de la práctica. Extrae los archivos y ponlos en la raíz de tu carpeta de trabajo.
+1. Crea un archivo gitignore que ignore los siguientes archivos:
     - ContraseñaSuperImportante.txt
     - Todos los archivos dentro de la carpeta PerfilesUsuario
     - Todos los archivos con extensión .env
+
+- Después de completar este paso, tu carpeta de trabajo se deberá de ver así: <br>
+![](Resources/FileSystem3.png)
 
 ## Pasos finales de la práctica
 1. Realiza un merge de la rama `gitignore` con la rama `main`.
