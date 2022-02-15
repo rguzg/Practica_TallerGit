@@ -10,8 +10,8 @@ En caso de tener alguna duda puedes consultar el archivo [Git_Markdown_Cheatshee
 ## Pasos iniciales de la práctica
 1. Realiza un fork de este repositorio
 1. Clona el fork que realizaste a tu computadora.
-1. En la raíz del repositorio, crea una nueva carpeta que tenga el mismo nombre que tu nombre de usuario de Discord. Dentro de esta carpeta almacenaras los archivos de la práctica.
-    - Suponiendo que tu nombre de usuario de Discord es `rguzgu`, la raíz del repositorio se debería de ver así:
+1. En la raíz del repositorio, crea una nueva carpeta que tenga el mismo nombre que tu nombre de usuario de Discord. Esta será tu **carpeta de trabajo** y en ella almacenarás los archivos de la práctica.
+    - Suponiendo que tu nombre de usuario de Discord es `rguzgu`, tu **carpeta de trabajo** tendrá el nombre de `rguzgu`:
     ![](Resources/FileSystem1.png)
 1. Crea una nueva rama que se llame `gitignore`. Deberás de quedarte con dos ramas en tu repositorio: `main`, `gitignore`.
 
