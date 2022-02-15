@@ -19,7 +19,7 @@ En caso de tener alguna duda puedes consultar el archivo [Git_Markdown_Cheatshee
 1. Dentro de la carpeta creada en el paso 3, crea una carpeta llamada evidencias. En esta carpeta almacenarás evidencias de los comandos de git que utilizaste en la práctica, trata de agregar al menos **3 evidencias**.
 2. Copia dentro de la carpeta creada en el paso 3 el archivo _README.md_ que estuvimos usando en el taller y síguelo modificando. Agrega más hobbies, más imágenes, links a algún video que te guste, describe lo que te gustaría aprender, lo que estas aprendiendo actualmente, no lo sé, ¡el cielo es el limite!. Las modificaciones que hagas en la rama al README deben de estar contenidas en al menos **3 commits diferentes**.
 
-Al terminar esta parte de la práctica, la creada en el paso 3 se deberá de ver así: <br>
+- Al terminar esta parte de la práctica, la carpeta creada en el paso 3 se deberá de ver así: <br>
 ![](Resources/FileSystem2.png)
 
 ## Cosas que se realizarán en la rama `gitignore`
