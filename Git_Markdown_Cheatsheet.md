@@ -21,9 +21,9 @@ Colección de cambios. Para registrar los cambios de uno o más archivos se debe
 
 ### Estados de archivos en el Working Directory
 Git le asigna un estado a cada archivo, dependiendo de su relación con la versión anterior del archivo:
-    - Untracked: Archivo nuevo. Git no tiene ninguna versión anterior de este archivo
-    - Modified: Archivo diferente a la versión anterior del archivo. Es posible ver que ha cambiado de la versión anterior a la actual
-    - Deleted: El archivo se eliminó
+- Untracked: Archivo nuevo. Git no tiene ninguna versión anterior de este archivo
+- Modified: Archivo diferente a la versión anterior del archivo. Es posible ver que ha cambiado de la versión anterior a la actual
+- Deleted: El archivo se eliminó
 
 ### Staging Area
 Área donde se agregan los cambios que se agregarán al siguiente commit
