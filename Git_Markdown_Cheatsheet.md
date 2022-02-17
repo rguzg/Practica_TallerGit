@@ -54,3 +54,60 @@ Copia de un repositorio que mantiene su conexión con el repositorio original
 
 ### Pull Request
 Los pull request sirven para pedir permiso de hacer merge de un rama a otra o de un fork de un repositorio al repositorio original
+
+## Git Commands
+Los argumentos de los comandos se muestran dentro de corchetes.
+
+### git
+Muestra una lista de algunos comandos que puedes utilizar con Git y sirve para saber si Git se instaló correctamente
+
+### git init
+Crea un repositorio dentro de la carpeta donde ejecutemos este comando
+
+### git status
+Muestra el estado actual del repositorio:
+- Muestra la rama actual en la que nos encontramos
+- Muestra si la rama está al corriente con respecto a la rama remota
+- Muestra los archivos que están en el staging area y los archivos untracked 
+
+### git add <nombre del archivo>
+Agrega un archivo al staging area. Para agregar todos los archivos de una carpeta se debe utilizar el comando `git add .`
+
+### git commit -m "<mensaje>"
+Crea un nuevo commit a partir de lo que se encuentre en el staging area
+
+### git log
+Muestra un resumen de todos los commits que se hayan hecho en un repositorio
+
+### git log <nombre del archivo>
+Muestra un resumen de todos los commits que hayan modificado a un archivo en especifico
+
+### git remote
+Muestra una lista de los repositorios remotos relacionados con el repositorio actual
+
+### git remote add <alias del repositorio remoto> <url del repositorio remoto>
+Añade un nuevo repositorio remoto
+
+### git pull
+Sincroniza los cambios del repositorio remoto con tu repositorio local
+
+### git push
+Sincroniza los cambios de tu repositorio local con tu repositorio remoto
+
+### git push --set-upstream <alias del repositorio remoto> <nombre de la rama>
+Crea una nueva rama en el repositorio remoto y la sincroniza con la rama local
+
+### git clone <url>
+Copia un repositorio en la nube a tu computadora
+
+### git branch
+Muestra una lista de las ramas existentes en el repositorio actual
+
+### git branch <nombre de la rama>
+Crea una nueva rama. El commit que tomará como base será el commit más reciente
+
+### git checkout <nombre de la rama>
+Permite cambiarte de rama
+
+### git merge <nombre de la rama>
+Realiza un merge entre la rama actual y la rama especificada 
