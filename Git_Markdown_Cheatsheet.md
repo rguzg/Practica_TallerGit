@@ -111,3 +111,52 @@ Permite cambiarte de rama
 
 ### git merge [nombre de la rama]
 Realiza un merge entre la rama actual y la rama especificada 
+
+## Sintaxis de gitignore
+Todas las rutas que se encuentren dentro del archivo `.gitignore` son relativas al folder donde se ubique el archivo `.gitignore`
+
+### Ignorar archivos y folders
+Utiliza el nombre del archivo o folder que quieras ignorar. Por ejemplo, para ignorar el archivo **README.md**: <br>
+
+```
+README.md
+```
+
+Recuerda que debes de incluir la ruta completa del archivo. Por ejemplo, si quisieras ignorar el archivo **Contraseñas.txt** que está dentro de la carpeta **Archivos**: <br>
+```
+Archivos/Contraseñas.txt
+```
+
+### Comodines
+También puedes utilizar el comodín **\***. Este comodín indica que en esa sección puede ir cualquier carácter. Por ejemplo:
+
+- Para ignorar todos los archivos que tengan la extensión **txt**: <br>
+```
+*.txt
+```
+- Para ignorar todos los archivos que tengan el nombre **contraseñas**, sin importar su extensión: <br>
+```
+contraseñas.*
+```
+
+- Para ignorar archivos dentro de todos los folders, se utiliza el comodín **\*\***. Por ejemplo, para ignorar los archivos **Contraseñas.txt** dentro de todas las carpetas: <br>
+```
+**/Contraseñas.txt
+```
+
+### Carácter `!`
+- Para no ignorar un archivo se utiliza el carácter **!**. Por ejemplo, para **no** ignorar el archivo **README.md**: <br>
+```
+!README.md
+```
+- Las reglas de gitignore se aplican de arriba para abajo, por ejemplo, estas reglas ignorarán **README.md**, incluso si se incluye **!README.md**: <br>
+```
+!README.md
+*.md
+```
+
+- La forma correcta de ignorar todos los archivos con extensión **.md** excepto por **README.md** es: <br>
+```
+*.md
+!README.md
+```
