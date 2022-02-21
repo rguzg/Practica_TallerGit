@@ -172,7 +172,7 @@ Markdown es un lenguaje que permite darle formato a texto. Se caracteriza por se
 Texto normal
 ```
 
-- Markdown renderizado:
+- Markdown renderizado: <br>
 Texto normal
 
 ### Texto en negritas
@@ -182,7 +182,7 @@ Texto normal
 **Texto en negritas**
 ```
 
-- Markdown renderizado:
+- Markdown renderizado: <br>
 **Texto en negritas**
 
 ### Texto en cursiva
@@ -192,7 +192,7 @@ Texto normal
 _Texto en cursiva_
 ```
 
-- Markdown renderizado:
+- Markdown renderizado: <br>
 _Texto en cursiva_
 
 ### Headers
