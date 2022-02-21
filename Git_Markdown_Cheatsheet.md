@@ -223,7 +223,7 @@ Los headers permiten indicar las secciones y subsecciones de un documento. Exist
 ![Descripción de la imagen. Es utilizada por lectores de texto o cuando la imagen no carga](URL de la imagen)
 ```
 
-- Markdown renderizado:
+- Markdown renderizado: <br>
 ![Carby. Kirby fused with a car](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftechnology.thenewsupdate.co%2Fupdate-https-cdn.wccftech.com%2Fwp-content%2Fuploads%2F2022%2F02%2FWCCFkirbyandtheforgottenland2.jpg&f=1&nofb=1)
 
 ### Link
@@ -233,7 +233,7 @@ Los headers permiten indicar las secciones y subsecciones de un documento. Exist
 [Texto del link](URL al link)
 ```
 
-- Markdown renderizado:
+- Markdown renderizado: <br>
 [Trailer oficial de Half Life 3](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ### In-Line Code
@@ -243,7 +243,7 @@ Los headers permiten indicar las secciones y subsecciones de un documento. Exist
 `Texto que tendrá formato de código`
 ```
 
-- Markdown renderizado:
+- Markdown renderizado: <br>
 `Texto que tendrá formato de código`
 
 ### Code Block
