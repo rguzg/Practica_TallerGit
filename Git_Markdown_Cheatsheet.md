@@ -179,7 +179,7 @@ Texto normal
 
 - Sintaxis en Markdown:
 ```markdown
-**Texto en negritas**
+\*\*Texto en negritas\*\*
 ```
 
 - Markdown renderizado:
@@ -189,7 +189,7 @@ Texto normal
 
 - Sintaxis en Markdown:
 ```markdown
-_Texto en cursiva_
+\_Texto en cursiva\_
 ```
 
 - Markdown renderizado:
@@ -200,12 +200,12 @@ Los headers permiten indicar las secciones y subsecciones de un documento. Exist
 
 - Sintaxis en Markdown:
 ```markdown
-# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
+\# Header 1
+\#\# Header 2
+\#\#\# Header 3
+\#\#\#\# Header 4
+\#\#\#\#\# Header 5
+\#\#\#\#\#\# Header 6
 ```
 
 - Markdown renderizado:
@@ -240,7 +240,7 @@ Los headers permiten indicar las secciones y subsecciones de un documento. Exist
 
 - Sintaxis en Markdown:
 ```markdown
-`Texto que tendrá formato de código`
+\`Texto que tendrá formato de código\`
 ```
 
 - Markdown renderizado:
