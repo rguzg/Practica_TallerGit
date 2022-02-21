@@ -250,7 +250,7 @@ Los headers permiten indicar las secciones y subsecciones de un documento. Exist
 
 - Sintaxis en Markdown:
 ```markdown
-```JavaScript <- Lenguaje de programación que se está utilizando
+```Lenguaje de programación que se está utilizando
 // Código de JavaScript
 let message = "Hello World!";
 console.log("Hello World!");
