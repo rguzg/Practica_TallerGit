@@ -160,3 +160,107 @@ Para ignorar archivos dentro de todos los folders, se utiliza el comodín `**`. 
 *.md
 !README.md
 ```
+
+## Sintaxis de Markdown
+
+Markdown es un lenguaje que permite darle formato a texto. Se caracteriza por ser fácil de leer y por ser utilizado para escribir la documentación de proyectos de programación
+
+### Texto normal
+
+- Sintaxis en Markdown:
+```markdown
+Texto normal
+```
+
+- Markdown renderizado:
+Texto normal
+
+### Texto en negritas
+
+- Sintaxis en Markdown:
+```markdown
+**Texto en negritas**
+```
+
+- Markdown renderizado:
+**Texto en negritas**
+
+### Texto en cursiva
+
+- Sintaxis en Markdown:
+```markdown
+_Texto en cursiva_
+```
+
+- Markdown renderizado:
+_Texto en cursiva_
+
+### Headers
+Los headers permiten indicar las secciones y subsecciones de un documento. Existen seis niveles de headers
+
+- Sintaxis en Markdown:
+```markdown
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+```
+
+- Markdown renderizado:
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+
+### Imágenes
+
+- Sintaxis en Markdown:
+```markdown
+![Descripción de la imagen. Es utilizada por lectores de texto o cuando la imagen no carga](URL de la imagen)
+```
+
+- Markdown renderizado:
+![Carby. Kirby fused with a car](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftechnology.thenewsupdate.co%2Fupdate-https-cdn.wccftech.com%2Fwp-content%2Fuploads%2F2022%2F02%2FWCCFkirbyandtheforgottenland2.jpg&f=1&nofb=1)
+
+### Link
+
+- Sintaxis en Markdown:
+```markdown
+[Texto del link](URL al link)
+```
+
+- Markdown renderizado:
+[Trailer oficial de Half Life 3](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+### In-Line Code
+
+- Sintaxis en Markdown:
+```markdown
+`Texto que tendrá formato de código`
+```
+
+- Markdown renderizado:
+`Texto que tendrá formato de código`
+
+### Code Block
+
+- Sintaxis en Markdown:
+```markdown
+\`\`\`JavaScript <- Lenguaje de programación que se está utilizando
+// Código de JavaScript
+let message = "Hello World!";
+console.log("Hello World!");
+\`\`\`
+```
+
+- Markdown renderizado:
+```JavaScript
+// Código de JavaScript
+let message = "Hello World!";
+console.log("Hello World!");
+```
+
