@@ -139,7 +139,7 @@ También puedes utilizar el comodín **\***. Este comodín indica que en esa sec
 contraseñas.*
 ```
 
-- Para ignorar archivos dentro de todos los folders, se utiliza el comodín **\*\***. Por ejemplo, para ignorar los archivos **Contraseñas.txt** dentro de todas las carpetas: <br>
+Para ignorar archivos dentro de todos los folders, se utiliza el comodín **\*\***. Por ejemplo, para ignorar los archivos **Contraseñas.txt** dentro de todas las carpetas: <br>
 ```
 **/Contraseñas.txt
 ```
