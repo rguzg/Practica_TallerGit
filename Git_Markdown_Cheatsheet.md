@@ -264,3 +264,37 @@ let message = "Hello World!";
 console.log("Hello World!");
 ```
 
+### Listas no numeradas
+
+- Sintaxis en Markdown:
+```markdown
+- Manzana 🍎
+    - Manzana verde 🍏
+- Pera 🍐
+- Plátano 🍌
+```
+
+- Markdown renderizado: <br>
+- Manzana 🍎
+    - Manzana verde 🍏
+- Pera 🍐
+- Plátano 🍌
+
+
+#### Listas numeradas
+
+- Sintaxis en Markdown:
+```markdown
+1. Polygondwanaland
+1. Gumboot Soup
+1. Flying Microtonal Banana
+1. Butterfly 3000
+    1. Butterfly 3001
+```
+
+- Markdown renderizado: <br>
+1. Polygondwanaland
+1. Gumboot Soup
+1. Flying Microtonal Banana
+1. Butterfly 3000
+    1. Butterfly 3001
